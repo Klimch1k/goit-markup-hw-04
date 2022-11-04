@@ -146,7 +146,7 @@ a {
 .hero {
   padding-top: 166px;
   padding-bottom: 200px;
-  background-color: var(--second-back-color);
+
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -156,6 +156,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-color: #c4c4c4;
+  background-size: 1600px;
 }
 
 .hero-title {
@@ -306,19 +307,33 @@ a {
 }
 .team-text {
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.team-networks {
+.networks-list {
   display: flex;
+  justify-content: center;
   padding-left: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.networks-item:not(:first-child) {
+  margin-left: 10px;
 }
 .icon-instagram {
   fill: #afb1b8;
+}
+.network {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
   background-color: tomato;
 }
 
