@@ -129,6 +129,15 @@ a {
 .auth-link:focus {
   color: var(--accent-color);
 }
+.icon-envelope {
+  display: inline-block;
+  margin-right: 10px;
+  fill: var(--main-color);
+}
+.auth-link .icon-envelope:hover,
+.auth-link .icon-envelope:focus {
+  fill: var(--accent-color);
+}
 /* Блок Хиро */
 .hero {
   padding-top: 166px;
