@@ -21,6 +21,39 @@ body {
   margin-right: auto;
 }
 /* Скидування дефолтних стилів та задання глобальних стилів */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+address {
+  font-style: normal;
+}
+button {
+  font-family: inherit;
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .link {
   text-decoration: none;
 }
@@ -515,6 +548,14 @@ a {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 0px;
+}
+.portfolio-link {
+  display: block;
+}
+.portfolio-link:hover,
+.portfolio-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .image-caption {
