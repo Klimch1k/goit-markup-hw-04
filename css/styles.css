@@ -116,6 +116,9 @@ a {
 }
 
 .auth-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 21px;
   padding-bottom: 21px;
 
@@ -129,13 +132,13 @@ a {
 .auth-link:focus {
   color: var(--accent-color);
 }
-.auth-icon {
-  width: 16px;
-  height: 12px;
-}
 .auth-link:hover .auth-icon,
 .auth-link:focus .auth-icon {
   fill: var(--accent-color);
+}
+.auth-icon {
+  fill: var(--main-color);
+  margin-right: 10px;
 }
 
 /* Блок Хиро */
