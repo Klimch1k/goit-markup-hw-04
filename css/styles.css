@@ -170,7 +170,7 @@ a {
   fill: var(--accent-color);
 }
 .auth-icon {
-  fill: var(--main-color);
+  fill: currentColor;
   margin-right: 10px;
 }
 
@@ -187,7 +187,7 @@ a {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/images/imgherobg.jpg);
+    url(../images/imgherobg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #c4c4c4;
@@ -368,15 +368,16 @@ a {
   align-items: center;
   width: 44px;
   height: 44px;
+  border-radius: 50%;
+  color: #afb1b8;
 }
 
 .network:hover,
 .network:focus {
   background-color: var(--accent-color);
-  border-radius: 50%;
 }
 .network-icon {
-  fill: #afb1b8;
+  fill: currentColor;
 }
 .network:focus .network-icon,
 .network:hover .network-icon {
@@ -391,19 +392,20 @@ a {
 .clients-item:not(:first-child) {
   margin-left: 30px;
 }
+
 .clients-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 16px;
-  padding-right: 32px;
-  padding-bottom: 16px;
-  padding-left: 32px;
+  width: 170px;
+  height: 92px;
+
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  color: #afb1b8;
 }
 .clients-logo {
-  fill: #afb1b8;
+  fill: currentColor;
 }
 
 .clients-link:hover .clients-logo,
@@ -491,9 +493,10 @@ a {
 .end-network {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
 }
 .network-icon-end {
-  fill: #ffffff;
+  fill: currentColor;
 }
 
 /* СТИЛІЗАЦІЯ ПОРТФОЛІО */
